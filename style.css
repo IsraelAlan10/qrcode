@@ -1,0 +1,64 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayishblue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+    --paragraph: 'Outfit', sans-serif;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.5rem;
+    font-family: var(--paragraph);
+    background-color: var(--lightgray);
+}
+p, h3 {
+    margin: 0 1rem;
+}
+a {
+    text-decoration: none;
+}
+
+/* Globales */
+
+.container {
+    margin: 0 auto;
+    width: 32rem;
+    height: 45rem;
+}
+
+/* clases */
+.box {
+    margin-top: 10rem;
+    background-color: var(--white);
+    border-radius: 1.7rem;
+    text-align: center;
+}
+.box__image {
+    padding: 1.5rem;
+    border-radius: 2.5rem;
+    width: 100%;
+}
+.top {
+    font-family: var(--paragraph);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--darkblue);
+    margin-top: 0;
+    padding: 0 1.5rem;
+}
+.bottom {
+    font-family: var(--paragraph);
+    font-weight: 100;
+    padding: 1.5rem;
+    color: var(--grayishblue);
+}
+.attribution {
+    margin-top: 5rem;
+    text-align: center;
+}
